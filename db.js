@@ -1,9 +1,11 @@
 import mysql from 'mysql2';
 
 export const db= mysql.createConnection({
-    host:process.env.HOST,
-    user:process.env.USER,
-    password:process.env.PASSWORD,
-    database:process.env.DATABASE,
-    port: process.env.PORT
+    host:"bb2xhenxgpntgubjbdvi-mysql.services.clever-cloud.com",
+    user:"upt8b84uf4lryoim",
+    password:"JXet9AkMuWhudiT9csuv",
+    database:"bb2xhenxgpntgubjbdvi",
+    port: 3306
 })
+
+
