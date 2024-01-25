@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2-runtime start index.js --env production"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +18,7 @@
     "jsonwebtoken": "^9.0.2",
     "multer": "^1.4.5-lts.1",
     "mysql": "^2.18.1",
-    "mysql2": "^3.6.2"
-    
+    "mysql2": "^3.6.2",
+    "nodemon": "^3.0.1"
   }
 }
